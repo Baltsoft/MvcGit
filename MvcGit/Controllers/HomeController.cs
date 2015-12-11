@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using MvcGit.Models;
 
 namespace MvcGit.Controllers
 {
@@ -13,8 +14,9 @@ namespace MvcGit.Controllers
 
         public ActionResult Index()
         {
-            var test="test"; 
-            return View();
+            var currentTime = DateTime.Now.ToString();
+            var model = new IndexViewModel() { CurrentTime = currentTime };
+            return View("Index", model);
         }
 
     }
