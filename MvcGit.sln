@@ -9,6 +9,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lib", "Lib", "{C5066D85-B28
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BS.Helpers", "..\..\..\..\Projects\BS.Helpers\BS.Helpers.csproj", "{69F1C635-03B9-459D-BCEB-F3B1A101E041}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcGit.Domain", "MvcGit.Domain\MvcGit.Domain.csproj", "{092040AB-DF48-44F1-886F-D392239A5EDD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -28,6 +30,12 @@ Global
 		{69F1C635-03B9-459D-BCEB-F3B1A101E041}.Release|Any CPU.Build.0 = Release|Any CPU
 		{69F1C635-03B9-459D-BCEB-F3B1A101E041}.Sandbox|Any CPU.ActiveCfg = Sandbox|Any CPU
 		{69F1C635-03B9-459D-BCEB-F3B1A101E041}.Sandbox|Any CPU.Build.0 = Sandbox|Any CPU
+		{092040AB-DF48-44F1-886F-D392239A5EDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{092040AB-DF48-44F1-886F-D392239A5EDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{092040AB-DF48-44F1-886F-D392239A5EDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{092040AB-DF48-44F1-886F-D392239A5EDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{092040AB-DF48-44F1-886F-D392239A5EDD}.Sandbox|Any CPU.ActiveCfg = Release|Any CPU
+		{092040AB-DF48-44F1-886F-D392239A5EDD}.Sandbox|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
