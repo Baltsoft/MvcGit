@@ -1,6 +1,8 @@
 #### 1. Install the ConvertAPI library from NuGet
 
+```
 PM> Install-Package ConvertApi
+```
 
 #### 2.a. Convert local file
 
